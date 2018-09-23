@@ -14,7 +14,7 @@ def pop_with_args(array)
   remove_arr = []
   num = 2 
   while num > 0 
-    array.pop
+    remove_arr << array.pop
     num -= 1
   end 
 end 
