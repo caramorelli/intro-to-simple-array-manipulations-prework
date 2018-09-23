@@ -11,13 +11,13 @@ def using_pop(array)
 end 
 
 def pop_with_args(array)
-  remove_arr = []
+  # remove_arr = []
   num = 2 
   while num > 0 
     remove_arr << array.pop
     num -= 1
   end 
-  remove_arr
+  # remove_arr
 end 
 
 def using_shift(array)
