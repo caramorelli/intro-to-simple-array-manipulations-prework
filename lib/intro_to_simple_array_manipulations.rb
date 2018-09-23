@@ -31,7 +31,7 @@ def using_uniq(array)
 end 
 
 def using_insert(array, element)
-  array.insert(-1, element)
+  array.insert(4, element)
 end 
 
 def using_delete_at(array, num)
