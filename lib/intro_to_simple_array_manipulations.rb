@@ -17,6 +17,7 @@ def pop_with_args(array)
     remove_arr << array.pop
     num -= 1
   end 
+  remove_arr
 end 
 
 def using_shift(array)
