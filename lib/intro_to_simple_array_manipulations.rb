@@ -36,6 +36,7 @@ end
 
 def using_insert(array, string)
   array.insert(string)
+  array
 end 
 
 def using_delete_at(array, num)
