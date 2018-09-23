@@ -30,8 +30,8 @@ def using_uniq(array)
   array.uniq 
 end 
 
-def using_insert(array, string)
-  array.insert(-1, string)
+def using_insert(array, element)
+  array.insert(-1, element)
 end 
 
 def using_delete_at(array, num)
